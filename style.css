@@ -32,12 +32,12 @@ h1 {
   display: inline-block;
   border: 0;
   border-bottom: 2px solid #1c0fcf;
+  background-color: #ffffff03;
   outline: none;
   min-width: 200px;
   font-size: 16px;
   transition: all 0.3s ease-out;
   border-radius: 0;
-  background-color: #ffffff03;
 }
 .label {
   position: relative;
@@ -90,4 +90,20 @@ button:hover {
   right: 10px;
   cursor: pointer;
   color: #1c0fcf;
+}
+#msgError {
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffabbb;
+  padding: 15px;
+  border-radius: 4px;
+  display: none;
+}
+#msgSuccess {
+  text-align: center;
+  color: #00ff00;
+  background-color: #80bd8c;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
 }
